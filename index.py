@@ -299,6 +299,9 @@ Title.pack(pady=10)
 lbl_display = Label(Title, text="Simple Inventory System", font=('arial', 45))
 lbl_display.pack()
 
+if __name__ == '__main__':
+    root.mainloop()
+
 ''' IN CASE IF YOU WANT TO USE MYSQL.
 import mysql.connector
 
@@ -446,6 +449,3 @@ def Login(event=None):
         cursor.close()
         conn.close()
 '''
-
-if __name__ == '__main__':
-    root.mainloop()
